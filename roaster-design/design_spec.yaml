@@ -1,0 +1,31 @@
+heater:
+  voltage: 120
+  power_w: 1500
+
+ssr:
+  rating_a: 40
+
+fuse:
+  recommended_a: 15
+
+stepper:
+  motor: LIN_4118L
+  holding_torque_kgcm: 30
+  current_a: 2.1
+  microstep: 16
+  gearbox_ratio: 5.0
+
+valve:
+  type: ball
+  required_torque_nm: 0.5
+
+drum:
+  diameter_mm: 150
+  length_mm: 180
+  bean_mass_g: 500
+
+psu:
+  vmot_v: 24
+  vmot_a: 8
+  fan_12v_a: 2
+  logic_5v_a: 1
